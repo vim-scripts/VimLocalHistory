@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2442
+
+VLH automatically saves buffers on write using git.  This provides a convenient, automatic backup system of, e.g. files in /etc that are modified, as well as a poor man's "local history" (a lá the eclipse feature with the same name).
+
+Feedback, bug reports and suggestions gratefully accepted at <vlh@hjdivad.com>.
+
+
+To use, install, configure g:vlh_repository_dir and then use vim normally.  Every time you write a buffer whose path is on the local filesystem, a copy is saved in a git repository.
+
+You can open, diff or restore older versions of files with the commands VLHOpen, VLHDiff and VLHReplace.
+
+source code is available from github at http://github.com/hjdivad/vimlocalhistory/tree/master
